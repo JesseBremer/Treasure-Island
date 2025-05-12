@@ -14,7 +14,7 @@ if character_movement == "left":
                                    "You've come this far so why not continue? \n"
                                    "You reach the end of the cave where you find three different coloured doors. \n"
                                    "Which one will you choose? 'red', 'yellow', or 'blue' ? \n")
-        if  character_movement == "red":
+        if character_movement == "red":
             print(
                 "You open the red door and... \n"
                 "Congratulations, you found the treasure! \n"
