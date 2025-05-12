@@ -1,5 +1,5 @@
-print("Welcome to Treasure Island!\n")
-print("Your mission is to find the treasure, matey.")
+print("Welcome to Treasure Island!\n"
+      "Your mission is to find the treasure, matey.")
 
 character_movement = input("As you land on the beach, before you are two paths into the forested island. \n"
                            "Which direction do you take? Type 'left' or 'right'\n")
@@ -21,16 +21,18 @@ if character_movement == "left":
                 "You flee the island with all your riches!")
         elif character_movement == "blue":
             print("You open the blue door and...\n"
-                  "immediately are shot with an arrow through the chest.\n"
+                  "Immediately you are shot through the chest by an arrow trap.\n"
                   "Game Over!")
         elif character_movement == "yellow":
             print(
-                "You open the yellow door and...\nAs you step through - the door slams behind you!\n"
+                "You open the yellow door and...\n"
+                "As you step through - the door slams behind you!\n"
                 "You find yourself trapped inside with other an array of bones scattered across the floor.\n"
                 "You're not getting out of here. Game over!")
     else:
-        print("You continue down the path but get caught in net trap a few paces from the cave! \nCannibals "
-          "from the island have caught their dinner unfortunately for you... \nGame over!")
+        print("You continue down the path but get caught in net trap a few paces away from the cave! \n"
+              "Cannibals from the island have caught their dinner unfortunately for you... \n"
+              "Game over!")
 
 else:
 
